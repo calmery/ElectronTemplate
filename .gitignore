@@ -1,4 +1,4 @@
-### https://raw.github.com/github/gitignore/ec246076319913acee4aaeef8caf86b78e586e7a/Global/macOS.gitignore
+### https://raw.github.com/github/gitignore/f908e51bcf38ae5ede449c55189a7b25d8c507cc/Global/macOS.gitignore
 
 # General
 .DS_Store
@@ -28,7 +28,7 @@ Temporary Items
 .apdisk
 
 
-### https://raw.github.com/github/gitignore/ec246076319913acee4aaeef8caf86b78e586e7a/Global/Windows.gitignore
+### https://raw.github.com/github/gitignore/f908e51bcf38ae5ede449c55189a7b25d8c507cc/Global/Windows.gitignore
 
 # Windows thumbnail cache files
 Thumbs.db
@@ -55,7 +55,7 @@ $RECYCLE.BIN/
 *.lnk
 
 
-### https://raw.github.com/github/gitignore/ec246076319913acee4aaeef8caf86b78e586e7a/Global/Linux.gitignore
+### https://raw.github.com/github/gitignore/f908e51bcf38ae5ede449c55189a7b25d8c507cc/Global/Linux.gitignore
 
 *~
 
@@ -72,7 +72,7 @@ $RECYCLE.BIN/
 .nfs*
 
 
-### https://raw.github.com/github/gitignore/ec246076319913acee4aaeef8caf86b78e586e7a/Node.gitignore
+### https://raw.github.com/github/gitignore/f908e51bcf38ae5ede449c55189a7b25d8c507cc/Node.gitignore
 
 # Logs
 logs
@@ -132,6 +132,7 @@ typings/
 
 # dotenv environment variables file
 .env
+.env.test
 
 # parcel-bundler cache (https://parceljs.org/)
 .cache
@@ -146,10 +147,14 @@ typings/
 .vuepress/dist
 
 # Serverless directories
-.serverless
+.serverless/
 
 # FuseBox cache
 .fusebox/
 
+# DynamoDB Local files
+.dynamodb/
+
 
 build/
+release/

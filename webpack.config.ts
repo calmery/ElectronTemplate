@@ -15,6 +15,10 @@ const common: webpack.Configuration = {
       {
         test: /\.tsx?$/,
         loader: "ts-loader"
+      },
+      {
+        test: /\.env$/,
+        loader: "raw-loader"
       }
     ]
   },
@@ -42,7 +46,6 @@ const renderer: webpack.Configuration = merge(common, {
     publicPath: "/", // For webpack-dev-server
     path: path.resolve(__dirname, "build/renderer")
   },
-  // target: "electron-renderer",
   module: {
     rules: [
       {

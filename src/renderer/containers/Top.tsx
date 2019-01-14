@@ -9,7 +9,7 @@ class Top extends React.Component {
       <>
         <div>Top</div>
         <img src={logo} />
-        <Link to='/counter'>Counter</Link>
+        <Link to="/counter">Counter</Link>
       </>
     );
   }
@@ -20,7 +20,7 @@ const mapStateToProps = () => {
 };
 
 const mapDispatchToProps = () => {
-  return {}
+  return {};
 };
 
 export default connect(

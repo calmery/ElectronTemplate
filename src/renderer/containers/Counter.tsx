@@ -2,7 +2,7 @@ import * as React from "react";
 import { connect } from "react-redux";
 import { State } from "../modules";
 import { Dispatch } from "redux";
-import { Link } from 'react-router-dom';
+import { Link } from "react-router-dom";
 
 import Count from "../components/Count";
 import { increment, decrement } from "../modules/counter/actions";
@@ -22,7 +22,7 @@ class Counter extends React.Component<Props> {
         <Count count={count} />
         <button onClick={this.increment.bind(this)}>Increment</button>
         <button onClick={this.decrement.bind(this)}>Decrement</button>
-        <Link to='/'>Top</Link>
+        <Link to="/">Top</Link>
       </>
     );
   }
